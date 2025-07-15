@@ -36,9 +36,6 @@ Simplify your app development, grow your user base, and monetize more effectivel
     ss.ios.deployment_target = '15.0'
     ss.osx.deployment_target = '10.15'
     ss.tvos.deployment_target = '15.0'
-    ss.ios.dependency 'FirebaseAnalytics', '~> 12.0.0'
-    ss.osx.dependency 'FirebaseAnalytics', '~> 12.0.0'
-    ss.tvos.dependency 'FirebaseAnalytics', '~> 12.0.0'
     ss.dependency 'Firebase/CoreOnly'
   end
 
